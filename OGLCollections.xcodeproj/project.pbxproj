@@ -8,8 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0C27219016D305A000E26B91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C27218F16D305A000E26B91 /* Foundation.framework */; };
-		0C27219516D305A000E26B91 /* OGLCollections.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C27219416D305A000E26B91 /* OGLCollections.h */; };
-		0C27219716D305A000E26B91 /* OGLCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C27219616D305A000E26B91 /* OGLCollections.m */; };
+		0C27219F16D305C200E26B91 /* OGLPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C27219E16D305C200E26B91 /* OGLPair.m */; };
+		0C2721A716D30BD000E26B91 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2721A616D30BD000E26B91 /* SenTestingKit.framework */; };
+		0C2721A916D30BD000E26B91 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C2721A816D30BD000E26B91 /* Cocoa.framework */; };
+		0C2721B316D30BD000E26B91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C2721B116D30BD000E26B91 /* InfoPlist.strings */; };
+		0C2721BD16D30BFB00E26B91 /* OGLPairTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C2721BC16D30BFB00E26B91 /* OGLPairTest.m */; };
+		0C2721BE16D30D0300E26B91 /* OGLPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C27219E16D305C200E26B91 /* OGLPair.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +23,6 @@
 			dstPath = "include/${PRODUCT_NAME}";
 			dstSubfolderSpec = 16;
 			files = (
-				0C27219516D305A000E26B91 /* OGLCollections.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -29,8 +32,19 @@
 		0C27218C16D305A000E26B91 /* libOGLCollections.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOGLCollections.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C27218F16D305A000E26B91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0C27219316D305A000E26B91 /* OGLCollections-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OGLCollections-Prefix.pch"; sourceTree = "<group>"; };
-		0C27219416D305A000E26B91 /* OGLCollections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OGLCollections.h; sourceTree = "<group>"; };
-		0C27219616D305A000E26B91 /* OGLCollections.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OGLCollections.m; sourceTree = "<group>"; };
+		0C27219D16D305C200E26B91 /* OGLPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLPair.h; sourceTree = "<group>"; };
+		0C27219E16D305C200E26B91 /* OGLPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLPair.m; sourceTree = "<group>"; };
+		0C2721A516D30BD000E26B91 /* OGLCollectionsUnitTest.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OGLCollectionsUnitTest.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C2721A616D30BD000E26B91 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		0C2721A816D30BD000E26B91 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		0C2721AB16D30BD000E26B91 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		0C2721AC16D30BD000E26B91 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0C2721AD16D30BD000E26B91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C2721B016D30BD000E26B91 /* OGLCollectionsUnitTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OGLCollectionsUnitTest-Info.plist"; sourceTree = "<group>"; };
+		0C2721B216D30BD000E26B91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C2721B716D30BD000E26B91 /* OGLCollectionsUnitTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OGLCollectionsUnitTest-Prefix.pch"; sourceTree = "<group>"; };
+		0C2721BB16D30BFB00E26B91 /* OGLPairTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGLPairTest.h; sourceTree = "<group>"; };
+		0C2721BC16D30BFB00E26B91 /* OGLPairTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGLPairTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +56,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		0C2721A116D30BD000E26B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2721A716D30BD000E26B91 /* SenTestingKit.framework in Frameworks */,
+				0C2721A916D30BD000E26B91 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				0C27219116D305A000E26B91 /* OGLCollections */,
+				0C2721AE16D30BD000E26B91 /* OGLCollectionsUnitTest */,
 				0C27218E16D305A000E26B91 /* Frameworks */,
 				0C27218D16D305A000E26B91 /* Products */,
 			);
@@ -58,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				0C27218C16D305A000E26B91 /* libOGLCollections.a */,
+				0C2721A516D30BD000E26B91 /* OGLCollectionsUnitTest.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				0C27218F16D305A000E26B91 /* Foundation.framework */,
+				0C2721A616D30BD000E26B91 /* SenTestingKit.framework */,
+				0C2721A816D30BD000E26B91 /* Cocoa.framework */,
+				0C2721AA16D30BD000E26B91 /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -73,9 +101,9 @@
 		0C27219116D305A000E26B91 /* OGLCollections */ = {
 			isa = PBXGroup;
 			children = (
-				0C27219416D305A000E26B91 /* OGLCollections.h */,
-				0C27219616D305A000E26B91 /* OGLCollections.m */,
 				0C27219216D305A000E26B91 /* Supporting Files */,
+				0C27219D16D305C200E26B91 /* OGLPair.h */,
+				0C27219E16D305C200E26B91 /* OGLPair.m */,
 			);
 			path = OGLCollections;
 			sourceTree = "<group>";
@@ -84,6 +112,36 @@
 			isa = PBXGroup;
 			children = (
 				0C27219316D305A000E26B91 /* OGLCollections-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0C2721AA16D30BD000E26B91 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C2721AB16D30BD000E26B91 /* AppKit.framework */,
+				0C2721AC16D30BD000E26B91 /* CoreData.framework */,
+				0C2721AD16D30BD000E26B91 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		0C2721AE16D30BD000E26B91 /* OGLCollectionsUnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				0C2721AF16D30BD000E26B91 /* Supporting Files */,
+				0C2721BB16D30BFB00E26B91 /* OGLPairTest.h */,
+				0C2721BC16D30BFB00E26B91 /* OGLPairTest.m */,
+			);
+			path = OGLCollectionsUnitTest;
+			sourceTree = "<group>";
+		};
+		0C2721AF16D30BD000E26B91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C2721B016D30BD000E26B91 /* OGLCollectionsUnitTest-Info.plist */,
+				0C2721B116D30BD000E26B91 /* InfoPlist.strings */,
+				0C2721B716D30BD000E26B91 /* OGLCollectionsUnitTest-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -108,6 +166,24 @@
 			productReference = 0C27218C16D305A000E26B91 /* libOGLCollections.a */;
 			productType = "com.apple.product-type.library.static";
 		};
+		0C2721A416D30BD000E26B91 /* OGLCollectionsUnitTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C2721B816D30BD000E26B91 /* Build configuration list for PBXNativeTarget "OGLCollectionsUnitTest" */;
+			buildPhases = (
+				0C2721A016D30BD000E26B91 /* Sources */,
+				0C2721A116D30BD000E26B91 /* Frameworks */,
+				0C2721A216D30BD000E26B91 /* Resources */,
+				0C2721A316D30BD000E26B91 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OGLCollectionsUnitTest;
+			productName = OGLCollectionsUnitTest;
+			productReference = 0C2721A516D30BD000E26B91 /* OGLCollectionsUnitTest.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -130,20 +206,68 @@
 			projectRoot = "";
 			targets = (
 				0C27218B16D305A000E26B91 /* OGLCollections */,
+				0C2721A416D30BD000E26B91 /* OGLCollectionsUnitTest */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C2721A216D30BD000E26B91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2721B316D30BD000E26B91 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0C2721A316D30BD000E26B91 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0C27218816D305A000E26B91 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C27219716D305A000E26B91 /* OGLCollections.m in Sources */,
+				0C27219F16D305C200E26B91 /* OGLPair.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C2721A016D30BD000E26B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2721BD16D30BFB00E26B91 /* OGLPairTest.m in Sources */,
+				0C2721BE16D30D0300E26B91 /* OGLPair.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0C2721B116D30BD000E26B91 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C2721B216D30BD000E26B91 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		0C27219816D305A000E26B91 /* Debug */ = {
@@ -221,6 +345,43 @@
 			};
 			name = Release;
 		};
+		0C2721B916D30BD000E26B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OGLCollectionsUnitTest/OGLCollectionsUnitTest-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "OGLCollectionsUnitTest/OGLCollectionsUnitTest-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		0C2721BA16D30BD000E26B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OGLCollectionsUnitTest/OGLCollectionsUnitTest-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "OGLCollectionsUnitTest/OGLCollectionsUnitTest-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -238,6 +399,14 @@
 			buildConfigurations = (
 				0C27219B16D305A000E26B91 /* Debug */,
 				0C27219C16D305A000E26B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0C2721B816D30BD000E26B91 /* Build configuration list for PBXNativeTarget "OGLCollectionsUnitTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2721B916D30BD000E26B91 /* Debug */,
+				0C2721BA16D30BD000E26B91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

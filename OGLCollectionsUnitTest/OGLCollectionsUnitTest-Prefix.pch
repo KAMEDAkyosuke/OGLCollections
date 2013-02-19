@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'OGLCollectionsUnitTest' target in the 'OGLCollectionsUnitTest' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
