@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C27219016D305A000E26B91 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C27218F16D305A000E26B91 /* Foundation.framework */; };
+		0C27219516D305A000E26B91 /* OGLCollections.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0C27219416D305A000E26B91 /* OGLCollections.h */; };
+		0C27219716D305A000E26B91 /* OGLCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C27219616D305A000E26B91 /* OGLCollections.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0C27218A16D305A000E26B91 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				0C27219516D305A000E26B91 /* OGLCollections.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0C27218C16D305A000E26B91 /* libOGLCollections.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libOGLCollections.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C27218F16D305A000E26B91 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0C27219316D305A000E26B91 /* OGLCollections-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OGLCollections-Prefix.pch"; sourceTree = "<group>"; };
+		0C27219416D305A000E26B91 /* OGLCollections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OGLCollections.h; sourceTree = "<group>"; };
+		0C27219616D305A000E26B91 /* OGLCollections.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OGLCollections.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C27218916D305A000E26B91 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C27219016D305A000E26B91 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C27218316D305A000E26B91 = {
+			isa = PBXGroup;
+			children = (
+				0C27219116D305A000E26B91 /* OGLCollections */,
+				0C27218E16D305A000E26B91 /* Frameworks */,
+				0C27218D16D305A000E26B91 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C27218D16D305A000E26B91 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C27218C16D305A000E26B91 /* libOGLCollections.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C27218E16D305A000E26B91 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0C27218F16D305A000E26B91 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0C27219116D305A000E26B91 /* OGLCollections */ = {
+			isa = PBXGroup;
+			children = (
+				0C27219416D305A000E26B91 /* OGLCollections.h */,
+				0C27219616D305A000E26B91 /* OGLCollections.m */,
+				0C27219216D305A000E26B91 /* Supporting Files */,
+			);
+			path = OGLCollections;
+			sourceTree = "<group>";
+		};
+		0C27219216D305A000E26B91 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C27219316D305A000E26B91 /* OGLCollections-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C27218B16D305A000E26B91 /* OGLCollections */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C27219A16D305A000E26B91 /* Build configuration list for PBXNativeTarget "OGLCollections" */;
+			buildPhases = (
+				0C27218816D305A000E26B91 /* Sources */,
+				0C27218916D305A000E26B91 /* Frameworks */,
+				0C27218A16D305A000E26B91 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OGLCollections;
+			productName = OGLCollections;
+			productReference = 0C27218C16D305A000E26B91 /* libOGLCollections.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C27218416D305A000E26B91 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = KAMEDAkyosuke;
+			};
+			buildConfigurationList = 0C27218716D305A000E26B91 /* Build configuration list for PBXProject "OGLCollections" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0C27218316D305A000E26B91;
+			productRefGroup = 0C27218D16D305A000E26B91 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C27218B16D305A000E26B91 /* OGLCollections */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C27218816D305A000E26B91 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C27219716D305A000E26B91 /* OGLCollections.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0C27219816D305A000E26B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0C27219916D305A000E26B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0C27219B16D305A000E26B91 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OGLCollections.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OGLCollections/OGLCollections-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0C27219C16D305A000E26B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/OGLCollections.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OGLCollections/OGLCollections-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C27218716D305A000E26B91 /* Build configuration list for PBXProject "OGLCollections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C27219816D305A000E26B91 /* Debug */,
+				0C27219916D305A000E26B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C27219A16D305A000E26B91 /* Build configuration list for PBXNativeTarget "OGLCollections" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C27219B16D305A000E26B91 /* Debug */,
+				0C27219C16D305A000E26B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C27218416D305A000E26B91 /* Project object */;
+}
